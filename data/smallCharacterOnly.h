@@ -1,4 +1,5 @@
 #include <iostream>
+#include <math.h>
 
 using namespace std;
 
@@ -38,7 +39,7 @@ void gen(char* destination_buffer,int max_size)	//tries password by putting it i
 	for(int i=0;i<max_size;i++)
 		index[i]=' ';
 	
-	for(int i=0;i<=26*26*26*26*26;i++)
+	for(int i=0;i<=pow(26,5);i++)
 	{	int pointer=increment(index,max_size);
 		destination_buffer=printArray(index,max_size,pointer);
 		cout<<destination_buffer<<endl;
