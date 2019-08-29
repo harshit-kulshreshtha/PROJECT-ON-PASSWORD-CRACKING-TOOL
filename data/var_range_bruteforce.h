@@ -7,8 +7,6 @@ char* printArray(char* arr,int l,int pointer)
 {
 	char* string=(char*)malloc((pointer+1)*sizeof(char));
 	string=&arr[l-pointer];
-	int j=0;	
-	
 	string[pointer]='\0';		
 	return string;	
 
