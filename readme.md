@@ -15,7 +15,7 @@ Our tool also provides the rainbow tables which are usually used for cracking pa
 Our too provides one of the important feature of hashing which can be used to check file authenticity , to generate rainbow tables , etc. A hash value can be used to uniquely identify secret information. Hash functions are widely used in cryptography. 
 Our tool will get improve and provide you with more features which includes like more characters , advanced brute force attacks , more easy and efficient password cracking techniques , etc. 
 ############################################################
-**DESCRIPTION OF FILES:
+**#DESCRIPTION OF FILES
 DATA FOLDER CONSIST OF FILES-**
 1)Big_Character_Only.H-   To crack password consist of only capital alphabet
 2)small_Character_Only.H- To crack password consist of only small alphabet
