@@ -10,11 +10,11 @@ lines=fin.readlines()
 for line in lines:
 	m = hashlib.sha256()
 	line=line.strip();
-	print(line)
-	y=input()
+	#print(line)
+	#y=input()
 	m.update(line);
 	fout.write(m.hexdigest());
-	print(m.hexdigest())
+	#print(m.hexdigest())
 	fout.write("\n");
 				
 fin.close();
